@@ -6,11 +6,11 @@ int main() {
 		if (i % 2 == 0) {
 			i++;
 			continue;
-			//continue¹®À» ½á¼­ Á¶°Ç¿¡ ¸ÂÀ¸¸é °è¼Ó ½ÇÇàµÇµµ·Ï ¼³Á¤
+			// continueë¬¸ì„ ì¨ì„œ ì¡°ê±´ì— ë§žìœ¼ë©´ ê³„ì† ì‹¤í–‰ë˜ë„ë¡ ì„¤ì •
 		}
 		printf("%d Hello World!\n", i);
 		i++;
-		//È¦¼ö¿¡µµ ++¸¦ ÇØÁà¾ß µÅ¼­ µé¾î°¡¾ßÇÔ
+		//í™€ìˆ˜ì—ë„ ++ë¥¼ í•´ì¤˜ì•¼ ë¼ì„œ ë“¤ì–´ê°€ì•¼í•¨
 	}
 	return 0;
 }
