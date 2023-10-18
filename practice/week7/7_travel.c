@@ -28,9 +28,15 @@ void calculateTravelDays() {
 	int travelDays[NUMCITY][NUMPEOPLE]; //travelDays배열 정의
 
 	//각 도시에서 각 사람이 보낸 일 수 입력받기
+<<<<<<< HEAD
 	for (int i = 0; i < NUMCITY; i++) {
 		for (int j = 0; j < NUMPEOPLE; j++) {
 			printf("도시 %s에서 사람 %s가 보낸 일 수를 입력하세요: ", cities[i], names[j]);
+=======
+	for (int i=0;i<NUMCITY;i++){
+		for (int j = 0; j < NUMPEOPLE; j++) {
+			printf("도시 %s에서 사람 %s가 보낸 일 수를 입력하세요: ", cities[i],names[j]);
+>>>>>>> ad1b923b8ed95a9d6c0abb6eeb44f66bd6bc7613
 			scanf_s("%d", &travelDays[i][j]);
 		}
 	}
