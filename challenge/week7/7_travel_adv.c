@@ -79,3 +79,4 @@ void getFamousCity(double dayArray[], int length) { //평균일 기준 가장 인기있었�
 	}
 	printf("평균일 기준으로 가장 인기있었던 도시는 %s입니다. (평균 머문일:%.2f)\n", cities[maxDayIndex], maxDay);
 }
+//커밋문제로 주석으로 파일내용변경좀 하겠습니다ㅜㅜ...

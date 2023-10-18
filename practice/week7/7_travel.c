@@ -48,3 +48,4 @@ void calculateTravelDays() {
 		printf("도시 %s에서 보낸 총 일수: %d, 평균 일 수: %.2f\n", cities[i], totalDays, averageDays);
 	}
 }
+		//커밋문제로 내용변경을 위해 주석좀 달겠습니다....ㅜㅜ
